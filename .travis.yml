@@ -1,6 +1,14 @@
----
+before_install:
+ - gem install bundler
+
 language: ruby
-cache: bundler
+
+os:
+  - linux
+  - osx
+
 rvm:
-  - 2.5.8
-before_install: gem install bundler -v 2.1.4
+  - "2.4.5"
+  - "2.5.5"
+  - "2.6.3"
+  - "2.7.1"
