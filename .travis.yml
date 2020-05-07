@@ -7,8 +7,18 @@ os:
   - linux
   - osx
 
+addons:
+  apt:
+    update: true
+    packages:
+    - imagemagick
+  homebrew:
+    update: true
+    packages:
+    - imagemagick
+
 rvm:
-  - "2.4.5"
-  - "2.5.5"
+  - "2.4.8"
+  - "2.5.8"
   - "2.6.3"
   - "2.7.1"
