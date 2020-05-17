@@ -31,4 +31,6 @@ Gem::Specification.new do |spec|
 
   # Gems
   spec.add_runtime_dependency 'rmagick', '~> 4.1'
+  spec.add_runtime_dependency 'sequel', '~> 5.32.0'
+  spec.add_runtime_dependency 'sqlite3', '~> 1.4.2'
 end
