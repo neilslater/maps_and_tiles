@@ -2,9 +2,10 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in maps_and_tiles.gemspec
+# The production dependencies are in maps_and_tiles.gemspec
 gemspec
 
+# These are all dev/test dependencies
 gem 'bundler-audit', '~> 0.6.1'
 gem 'rake', '~> 12.0'
 gem 'redcarpet', '~> 3.5'
