@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = '.'
   spec.homepage      = 'https://github.com/neilslater/maps_and_tiles'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.7.1')
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.com'
 
